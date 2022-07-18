@@ -601,7 +601,7 @@ const Portfolio = () => {
               <figure onClick={toggleModalTwo}>
                 <img src="img/projects/project-2.jpg" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Youtube Project</span>
+                  <span className="content-title"> MeshIt</span>
                 </div>
               </figure>
 
