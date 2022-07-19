@@ -6,26 +6,26 @@ const ModalEightContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>Dribbble Profile</h3>
+          <h3>NutCommerZ</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
               <span className="project-label">Project </span>:{" "}
-              <span className="ft-wt-600 uppercase">Website</span>
+              <span className="ft-wt-600 uppercase">Ecommerce - Subscription Panel</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Dribbble</span>
+              <span className="ft-wt-600 uppercase">A Product By Nutz</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
               <span className="project-label">Langages </span>:{" "}
-              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript</span>
+              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript, React JS & Node Js</span>
             </div>
             {/* End .col */}
 
@@ -34,11 +34,11 @@ const ModalEightContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://dribbble.com/ib-themes"
+                  href="https://su.nutcommerz.in/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.dribbble.com
+                  www.nutcommerz.in
                 </a>
               </span>
             </div>

@@ -6,26 +6,26 @@ const ModalNineContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>Behance Project</h3>
+          <h3>BioForHealth</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
               <span className="project-label">Project </span>:{" "}
-              <span className="ft-wt-600 uppercase">Website</span>
+              <span className="ft-wt-600 uppercase">Ecommerce </span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Behance</span>
+              <span className="ft-wt-600 uppercase">RamaChandran</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
               <span className="project-label">Langages </span>:{" "}
-              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript</span>
+              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript, ReactJS & NodeJs</span>
             </div>
             {/* End .col */}
 
@@ -34,11 +34,11 @@ const ModalNineContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://www.behance.net/ib-themes"
+                  href="https://bioforhealth.in/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.behance.net
+                  www.bioforhealth.in
                 </a>
               </span>
             </div>

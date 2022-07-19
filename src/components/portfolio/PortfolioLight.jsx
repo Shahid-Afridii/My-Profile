@@ -302,7 +302,7 @@ const PortfolioLight = () => {
         <figure className="direction-reveal__card" onClick={toggleModalEight}>
           <img src="img/projects/project-8.jpg" alt="Portolio" />
           <div className="direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Dribbble Profile</span>
+            <span className="direction-reveal__title">NutCommerZ - Subscription Panel</span>
           </div>
           {/* Start ModalEightContent */}
           <Modal
@@ -334,7 +334,7 @@ const PortfolioLight = () => {
         <figure className="direction-reveal__card" onClick={toggleModalNine}>
           <img src="img/projects/project-9.jpg" alt="Portolio" />
           <div className="direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Behance Project</span>
+            <span className="direction-reveal__title">BioForHealth - Ecommerce</span>
           </div>
         </figure>
 
