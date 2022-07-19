@@ -137,7 +137,7 @@ const PortfolioLight = () => {
         <figure className="direction-reveal__card" onClick={toggleModalThree}>
           <img src="img/projects/project-3.jpg" alt="Portolio" />
           <div className=" direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Slider Project</span>
+            <span className="direction-reveal__title">NutCommerZ -  A Product By Nutz</span>
           </div>
         </figure>
 
@@ -170,7 +170,7 @@ const PortfolioLight = () => {
         <figure className="direction-reveal__card" onClick={toggleModalFour}>
           <img src="img/projects/project-4.jpg" alt="Portolio" />
           <div className="direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Local Video Project</span>
+            <span className="direction-reveal__title">SportsWander - A Product By Nutz</span>
           </div>
         </figure>
 
@@ -203,7 +203,7 @@ const PortfolioLight = () => {
         <figure className="direction-reveal__card" onClick={toggleModalFive}>
           <img src="img/projects/project-5.jpg" alt="Portolio" />
           <div className="direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Saas App Project</span>
+            <span className="direction-reveal__title">Heboo - Ecommerce</span>
           </div>
         </figure>
 
@@ -236,7 +236,7 @@ const PortfolioLight = () => {
         <figure className="direction-reveal__card" onClick={toggleModalSix}>
           <img src="img/projects/project-6.jpg" alt="Portolio" />
           <div className=" direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Image Project</span>
+            <span className="direction-reveal__title">NutCommerZ - AdminPanel</span>
           </div>
         </figure>
 
@@ -269,7 +269,7 @@ const PortfolioLight = () => {
         <figure className="direction-reveal__card" onClick={toggleModalSeven}>
           <img src="img/projects/project-7.jpg" alt="Portolio" />
           <div className=" direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Facebook Profile</span>
+            <span className="direction-reveal__title">Tikkutoys - Ecommerce</span>
           </div>
         </figure>
 
