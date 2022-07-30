@@ -1,5 +1,14 @@
 import React from "react";
-
+import html from "../../assets/html.jpeg"
+import css from "../../assets/css.jpeg"
+import react from "../../assets/react.jpeg"
+import node from "../../assets/node.jpeg"
+import redux from "../../assets/redux.jpeg"
+import python from "../../assets/python.jpeg"
+import pandas from "../../assets/pandas.jpeg"
+import git from "../../assets/git.jpeg"
+import material from "../../assets/material.jpeg"
+import "./style.css"
 const skillsContent = [
   { skillClass: "p65", skillPercent: "65", skillName: "HTML" },
   { skillClass: "p89", skillPercent: "89", skillName: "JAVASCRIPT" },
@@ -11,13 +20,30 @@ const skillsContent = [
   { skillClass: "p65", skillPercent: "65", skillName: "Machine Learning" },
   // { skillClass: "p45", skillPercent: "45", skillName: "REACT" },
 ];
+const heroContent = [{  skillImage1: html},
+  { skillImage1: css},
+  { skillImage1: react},
+  { skillImage1: redux},
+  { skillImage1: material},
+  { skillImage1: node},
+  { skillImage1: python},
+  { skillImage1: pandas},
+  // { skillImage1: css},
+]
+ 
+ 
 
 const Skills = () => {
   return (
     <>
-      {skillsContent.map((val, i) => (
-        <div className="col-6 col-md-3 mb-3 mb-sm-5" key={i}>
-          <div className={`c100 ${val.skillClass}`}>
+      {heroContent.map((data, i) => (
+
+        
+        // <div className="col-4"></div>
+        <div className="col-4 col-md-3 mb-3 mb-sm-5" key={i}>
+          <img className="imageWidth" src={data.skillImage1} alt="" style={{width:"50%"}}/>
+          {/* <span>{data?.name}</span> */}
+          {/* <div className={`c100 ${val.skillClass}`}>
             <span>{val.skillPercent}%</span>
             <div className="slice">
               <div className="bar"></div>
@@ -26,7 +52,7 @@ const Skills = () => {
           </div>
           <h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">
             {val.skillName}
-          </h6>
+          </h6> */}
         </div>
       ))}
     </>
