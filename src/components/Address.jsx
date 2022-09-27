@@ -19,7 +19,7 @@ const Address = () => {
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-phone-square position-absolute"></i>
         <span className="d-block">call me</span>{" "}
-        <a href="Tel: +91 9092745806">+91 9092745 806</a>
+        <a href="Tel: +91 9092745806">+91 90927 45806</a>
       </p>
       {/* End .custom-span-contact */}
     </>

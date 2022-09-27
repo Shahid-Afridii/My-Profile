@@ -300,9 +300,9 @@ const PortfolioLight = () => {
       {/* <!-- Portfolio Item Starts --> */}
       <li className="direction-reveal">
         <figure className="direction-reveal__card" onClick={toggleModalEight}>
-          <img src="img/projects/project-8.jpg" alt="Portolio" />
+          <img src="img/projects/eatnfit.jpg" alt="Portolio" />
           <div className="direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">NutCommerZ - Subscription Panel</span>
+            <span className="direction-reveal__title">Eat 'N' Fit Naturals - Ecommerce</span>
           </div>
           {/* Start ModalEightContent */}
           <Modal
