@@ -2,7 +2,7 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2021 - Present",
+    year: "   2020 - Present",
     position: " Web Developer",
     compnayName: "Nutz Technovation Pvt Ltd",
     details: `  Nutz is a top-notch Website design and Mobile App development company comprises a peerless team that is striving hard to provide 
@@ -10,7 +10,7 @@ const experienceContent = [
      in building amazing and legitimate E-commerce websites in India, crafting Best-in-class Graphic designs for logos, Business cards, Brochures, Banners. `,
   },
   {
-    year: "2020 - 2021",
+    year: "2019 - 2020",
     position: "Python & DataScience Trainer",
     compnayName: "ACTE",
     details: `ACTE is one of the India’s leading Class Room & Online training providers. We partner with IT companies and individuals to address their unique needs, providing training and coaching that helps working professionals achieve their career goals. Our training courses are designed and updated by 650+ renowned industry experts,
